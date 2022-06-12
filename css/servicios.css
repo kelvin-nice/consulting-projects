@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+
+.seccion-imagenes-chicas{
+    width: 95%;
+    margin: 0px auto;
+
+}
+
+.contenedor-grid{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 1150px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.columna-2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.columna-2 a{
+    padding: 5px;
+    display: block;
+    margin: 0px auto;
+
+}
+.servicio-proyectos{
+    display: block;
+    margin: 0px auto;
+    width: 270px;
+}
+
+
+
+.contentx2{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 0 auto;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.izquierda-imagen{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px){
+    .contentx2{
+        
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .izquierda-imagen{
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+

@@ -1,0 +1,124 @@
+
+
+
+.seccion-card{
+    width: 100%;
+    
+}
+
+.contenedor-x{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+.columna-3{
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width: 330px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.columna-3 img{
+    margin-bottom: 30px;
+    width: 90px;
+}
+
+
+.espacio-seccion{
+    height: 60px;
+}
+
+@media (max-width: 991px){
+    .contenedor-x{
+        flex-wrap: wrap;
+    }
+    .contenedor-y{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+.seccion-card2{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.058);
+    background-image: url(../img/mapa-07.png);
+    background-size: 100%;
+    background-position: initial;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+}
+
+
+.columna-4{
+    padding: 20px 20px 50px 20px;
+    width: 310px;
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contenedor-y{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    max-width: 1100px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.h2-medio{
+    text-align: center;
+    padding: 15px;
+}
+.ejecutivosi{
+    margin-top: 23px;
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+.h5-ejecutivos{
+    color: #002259;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.h5-ejecutivos2{
+    color: #BF2525;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.columna-4 a{
+    text-decoration: none;
+    color: #002259;
+    border-color: #002259;
+    border: 1px solid;
+    font-weight: 900;
+    padding: 10px 13px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.columna-4 a:hover{
+    color: #003a97;
+    border-color: #003a97;
+}

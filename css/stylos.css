@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand img{
+    width: 300px;
+}
+
+@media (max-width: 320px){
+    .container-fluid .navbar-brand img{
+        width: 160px;
+    }
+    .container-fluid .navbar-toggler-icon-body img{
+        width: 24px;
+    }
+    
+    
+}
+
+
+@media (max-width: 453px) {
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-toggler-icon-body img{
+        width: 25px;
+    }
+    
+  }
+
+  @media (max-width: 600px){
+    .image-proyecto{
+        max-width: 100%;
+        
+        margin:  auto;
+        margin: 0px;
+    }
+    
+    
+  }
+
+
+
+
+
+  @media (max-width: 991px){
+    #navbarSupportedContent ul .nav-item a{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #002259;
+        margin-left: 1px;
+        padding: 10px;
+
+    }
+    ul .btn{
+        display: none;
+    }
+    .imagen-fondo-nosotros{
+        display: none;
+    }
+    .seccion-nosotros-franja .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    
+    
+  }
+
+.linea-superior{
+    width: 100%;
+    height: 8px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right ,#25006b , #b30303 );
+}
+
+button .navbar-toggler-icon{
+    color: #25006b;
+    width: 20px;
+}
+.navbar-toggler-icon-body img{
+    width: 45px;
+}
+button .navbar-toggler{
+    color: #b30303;
+}
+
+.nav-item a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #002259;
+    margin-left: 15px;
+}
+
+.nav-item a:hover,
+.nav-item a:after{
+    color: #BF2525;
+}
+
+ul .btn{
+    color: #BF2525;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-color: #BF2525;
+    margin-left: 20px;
+}
+
+ul .btn:hover{
+    color: white;
+    background-color: #c75252;
+    border-color: #c75252;
+    transition: 0.8s;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    color: white;
+    border-color: white;
+}
+
+.text-nosotros-2{
+    color: #002259;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+
+h3{
+    color: #002259;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+}
+
+h2{
+    font-size: 38px;
+    color: #002259;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+
+}
+
+.card-img-top-2{
+    margin-top: 10px;
+    width: 90%;
+}
+
+.ver-mas-1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-color: #b30303;
+    border: 1px solid;
+    color: #b30303;
+}
+
+.ver-mas-1:hover{
+    border-color: white;
+    background-color: #b30303;
+    border: 1px solid;
+    color: #ffffff;
+    font-weight: 600;
+    transition: .7s;
+}
+
+
+
+
+.parrafoslider{
+    font-size: 1.4rem;
+    color: rgb(0, 5, 65);
+    width: 60%;
+    margin-top: -20px;
+    font-weight: 700px;
+}
+
+
+
+
+
+/*   seccion franja colores texto nosotros e imagen  */
+
+
+.seccion-nosotros-franja{
+    display: flexbox;
+    background-image: linear-gradient(to right , #b30303  ,#25006b);
+}
+
+.imagen-fondo-nosotros{
+    width: 500px;
+}
+
+.flex-grow-1{
+    margin-bottom: 30px;
+}
+
+.ver-mas-2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-color: #ffffff;
+    border: 1px solid;
+    color: #ffffff;
+}
+
+.ver-mas-2:hover{
+    font-weight: 600;
+    padding: 10px 15px;
+    border-color: #b30303;
+    background-color: #ffffff;
+    border: 1px solid;
+    color: #b30303;
+    transition: .5s;
+}
+
+.text-nosotros{
+    font-weight: 700;
+}
+
+
+
+/* teamwork*/
+
+.teamwork{
+    background-image: url(../img/mapa-07.png);
+    background-image: 100%;
+}
+
+
+.contentx{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.izquierda-imagen{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px){
+    .contentx{
+        
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    .izquierda-imagen{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+header{
+    
+
+    width: 100%;
+    z-index: 1020;
+}
+
+
+
+
+
+
+
+
+.carrusel-chikito{
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    .carousel-inner .carousel-item .container{
+        position: absolute;
+        padding-bottom: 100px;
+    }
+    .carrusel-chikito{
+        display: block;
+    }
+    .carrusel-primero{
+        display: none;
+    }
+    .carousel-item{
+        height: 10% !important;
+    }
+}
+
+
+
+
+
+.carousel-item{
+    height: 33rem;
+    background: #777;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+.carousel-item .container{
+    position: absolute;
+    padding-bottom: 240px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.carousel-item .container h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3.4rem;
+    color: #002259;
+    font-weight: bold;
+}
+
+.carousel-item .container h6{
+    color: #b30303;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: -20px;
+}

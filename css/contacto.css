@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.seccion-p{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.contenedor-p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+form{
+    padding: 20px;
+    left: 0px;
+    width: 100%;
+    margin-right: auto;
+}
+
+
+
+
+
+.texto-contac{
+    width: 800px;
+}
+
+
+
+
+@media (max-width: 700px){
+    .contenedor-p{
+        flex-wrap: wrap;
+    }
+    .texto-contac .srta-telefono{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .texto-contac{
+        margin-right: 0px;
+        padding: 10px;
+    }
+    #boton{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+form input,
+form textarea{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1.2px solid;
+    border-color: rgb(167, 167, 167);
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+form input:focus [type="text"],
+form textarea:focus{
+    border-color: rgb(75, 9, 230);
+}
+
+
+#boton{
+    background-color: #BF2525;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 600;
+    width: 150px;
+    border: 0px;
+}
+#boton:hover{
+    background-color: #e61111;
+    transition: 0.5s;
+}
+
+form textarea{
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.texto-contac{
+    margin-right: 20px;
+}
+
+.col div{
+    margin-bottom: 20px;
+}
+.col .icon-phone,
+.col p{
+    display: inline-block;
+}
+
+.texto-contac img{
+    width: 300px;
+    margin-bottom: 18px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.col i{
+    color: #BF2525;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 6px;
+}
